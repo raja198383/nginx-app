@@ -9,15 +9,7 @@ metadata:
   resourceVersion: "522005"
   uid: 2ed0f89b-1a42-4df6-87c9-73e8c7aa6418
 spec:
-  allocateLoadBalancerNodePorts: true
-  clusterIP: 172.20.137.102
-  clusterIPs:
-  - 172.20.137.102
-  externalTrafficPolicy: Cluster
-  internalTrafficPolicy: Cluster
-  ipFamilies:
-  - IPv4
-  ipFamilyPolicy: SingleStack
+  
   ports:
   - nodePort: 30579
     port: 80
